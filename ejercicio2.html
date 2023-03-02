@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2 TDAW</title>
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <legend>
+                Indique sus preferencias por favor
+            </legend>
+
+            Elija una fecha: <input type="date" name="fecha" id="fecha"> <br>
+
+            Elija un archivo: <input type="file" value="escoger"> <br>
+
+            <input type="radio" name="procesador" value="procesadoramd"> AMD
+            <input type="radio" name="procesador" value="procesadorinteli5"> Intel i5
+            <input type="radio" name="procesador" value="procesadorinteli7"> Intel i7
+            <br>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                Indique sus preferencias por favor
+            </legend>
+
+            <input type="radio" name="asignatura" value="asignaturamatematicas"> Matematicas
+            <input type="radio" name="asignatura" value="asignaturahistoria"> Historia
+            <input type="radio" name="asignatura" value="asignaturageografia"> Geografia
+            <input type="radio" name="asignatura" value="asignaturalengua"> Lengua
+            <br>
+
+            Nombre: <input type="text" name="nombre" required> <br>
+            Apellidos: <input type="text" name="apellidos" required> <br>
+            Direccion: <input type="text" name="direccion" required> <br>
+            <br>
+
+            Elija un color: <input type="color"> <br>
+            <textarea cols="59" rows="6">Utilice este cuadro para escribir</textarea> <br>
+            Elija una fecha: <input type="date"> <br>
+            <select name="idioma">
+                <option value="ingles">Ingles</option>
+                <option value="aleman">Aleman</option>
+                <option value="frances">Frances</option>
+            </select> <br>
+            Elija una hora: <input type="time"> <br>
+            <input type="checkbox" name="sexo" value="sexomujer"> Mujer
+            <input type="checkbox" name="sexo" value="sexohombre"> Hombre
+            <br>
+
+            <input type="submit" value="Enviar">
+
+        </fieldset>
+    </form>
+</body>
+</html>
