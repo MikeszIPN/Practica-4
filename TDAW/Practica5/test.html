@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IA News</title>
+
+    <link rel="stylesheet" href="estilo.css">
+    <script src="app.js"></script>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <section class="ENCABEZADO">
+
+        <div id="mySidepanel" class="sidepanel">
+            <div class="closebtn" onclick="closeNav()">x</div>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="#">Registro</a>
+                <a href="Noticias.html">Noticias</a>
+                <a href="#">Canales de Youtube</a>
+                <a href="#">ChatBot</a>
+            </nav>
+        </div>
+        <div class="row">
+            <button class="openbtn" onclick="openNav()"><img src="images/menu.png"></button>
+            <div class="col">
+                <p>I.A.</p>
+            </div>
+        </div>
+
+        <img src="images/IANews.png" alt="Logotipo de IA news" class="IANews" style="float:left">
+
+        <h1 class="TITULO">Dia a dia con la IA</h1>
+        <header>
+            <nav>
+                <span class="cat" onclick="buscar('Chatbots IA')">Chatbots</span>
+                <span class="cat" onclick="buscar('Uso de inteligencia artificial en medicina')">Medicina</span>
+                <span class="cat" onclick="buscar('Avances en la IA')">Avances</span>
+                <span class="cat" onclick="buscar('Peligros con la IA')">Malas noticias</span>
+                <span class="cat" onclick="buscar('Tesla IA')">Tesla</span>
+            </nav>
+        </header>
+    </section>
+
+    <main>
+        <div class="container-noticias">
+
+        </div>
+        <script src="app.js"></script>
+    </main>
+
+</body>
+
+</html>
